@@ -56,7 +56,7 @@ public class CameraManagement : MonoBehaviour {
         {
             elapsedTime += Time.deltaTime;
             Vector3 newPos = transform.position;
-            newPos.z = Mathf.Lerp(CameraZPos, Mathf.Min(CameraZPos - GameManager.instance.GetStackCount(), 25f), elapsedTime / moveTime);
+            newPos.z = Mathf.Lerp(CameraZPos, Mathf.Min(CameraZPos - GameManager.instance.GetStackCount(), 25f), elapsedTime / pullTime);
             transform.position = newPos;
             yield return new WaitForEndOfFrame();
         }
