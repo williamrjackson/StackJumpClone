@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 397bfe3aaf8e08946baab0c07ac6d927
+  - enabled: 1
+    path: Assets/Scenes/JumpStackGame.unity
+    guid: de0b487bebf67f7409c98bfbf759ce17

@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour {
     {
         print("Game Over");
         gameOver = true;
+        GetComponent<Enabler>().EnableObjects(true);
     }
     public bool GetGameOver()
     {
